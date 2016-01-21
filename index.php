@@ -1,13 +1,12 @@
 <?php get_header(); ?>
 
 	<main role="main">
-		<!-- section -->
-		<section>
+		<?php get_template_part('partials/nav'); ?>
+		<?php get_template_part('partials/projects'); ?>
+		<?php get_template_part('partials/thewall'); ?>
+		<?php get_template_part('partials/about'); ?>
+		<?php get_template_part('partials/contact'); ?>
 
-			<h1>Rasmus Eklind</h1>
-
-		</section>
-		<!-- /section -->
 	</main>
 
 <?php get_footer(); ?>
