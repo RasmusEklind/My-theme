@@ -1,0 +1,23 @@
+@function strip-units($value) {
+  @return ($value / ($value * 0 + 1));
+}
+
+@function rem($px-value) {
+  @if not unitless($px-value) {
+    $px-value: strip-units($px-value);
+  }
+
+  $base: $base-font-size;
+
+  @if not unitless($base) {
+    $base: strip-units($base);
+  }
+
+  @return ($px-value / $base) * 1rem;
+}
+
+@mixin rem-fallback($property, $sizeValue) {
+
+  #{$property}: $sizeValue + px;
+  #{$property}: ($sizeValue / 16) + rem;
+}
