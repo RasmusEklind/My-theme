@@ -9,5 +9,14 @@
 
 
 //Layout
+@import "layout/footer";
+@import "layout/header";
+@import "layout/section";
 
 //Modules
+@import "modules/about";
+@import "modules/contact";
+@import "modules/projects";
+@import "modules/svg";
+@import "modules/thewall";
+@import "modules/top";

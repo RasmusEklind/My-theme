@@ -12,8 +12,6 @@
 	</head>
 
 	<body>
-		<div class="wrapper">
 			<header class="header">
-				<div class="header--container">
-				</div>
+				<div class="header--container"> </div>
 			</header>

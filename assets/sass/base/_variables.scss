@@ -1,9 +1,15 @@
-// // Colors
-//
-//
-// // Fonts
+// Colors
+  $color-white-white: #ffffff;
+  $color-dark-grey: #222222;
+  $color-dark-blue: #555572;
+  $color-light-blue: #4271e0;
+  $color-light-pink: #ff4a2e;
+  $color-dark-pink: #ff806c;
+
+
+// Fonts
 // $font-family-monospace: asd;
-// $font-family-sans-serif: ;
+  $font-family-sans-serif: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 // $font-family-serif: ;
 //
 // // Base
@@ -13,13 +19,13 @@
 // $base-link-color--hover: ;
 // $base-spacing: ;
 // $base-font-family: ;
-// // $base-font-size: 18px;
+  $base-font-size: 18px;
 // $base-line-height: ;
 //
 // // Headings
 // $heading-font-family: ;
 // $heading-line-height: ;
-// $heading-color: ;
+   $heading-color: $color-dark-blue;
 //
 // $h1-font-size: 38;
 // $h2-font-size: 30;
@@ -31,7 +37,7 @@
 // // Breakpoints
 // $mq-medium: ;
 // $mq-large: ;
-// $max-width: ;
+  $max-width: 1200px;
 //
 // //Article headers
 // $h1-font-size-article: 28;
