@@ -1,3 +1,8 @@
+
+.section--projects {
+  background-color: $color-grey-white;
+}
+
 .section__content {
   @include rem-fallback(padding-left, 5);
   @include rem-fallback(padding-right, 5);
