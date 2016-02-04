@@ -6,7 +6,7 @@
   $color-light-blue: #4271e0;
   $color-light-pink: #ff4a2e;
   $color-dark-pink: #ff806c;
-
+  $color-light-black: #545454;
 
 // Fonts
 // $font-family-monospace: asd;
@@ -26,24 +26,23 @@
 // // Headings
 // $heading-font-family: ;
 // $heading-line-height: ;
-   $heading-color: $color-dark-blue;
-//
-// $h1-font-size: 38;
-// $h2-font-size: 30;
-// $h3-font-size: 24;
-// $h4-font-size: 20;
-// $h5-font-size: 18;
-// $h6-font-size: 16;
-//
+  $heading-color: $color-dark-blue;
+  $h1-font-size: 42px;
+  $h2-font-size: 36px;
+  $h3-font-size: 24px;
+  $h4-font-size: 20px;
+  $h5-font-size: 18px;
+  $h6-font-size: 16px;
+
 // // Breakpoints
 // $mq-medium: ;
 // $mq-large: ;
   $max-width: 1200px;
-//
+
 // //Article headers
-// $h1-font-size-article: 28;
-// $h2-font-size-article: 26;
-// $h3-font-size-article: 24;
-// $h4-font-size-article: 20;
-// $h5-font-size-article: 18;
-// $h6-font-size-article: 16;
+$h1-font-size-article: 28;
+$h2-font-size-article: 26;
+$h3-font-size-article: 24;
+$h4-font-size-article: 20;
+$h5-font-size-article: 18;
+$h6-font-size-article: 16;

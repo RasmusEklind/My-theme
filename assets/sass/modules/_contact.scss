@@ -1,0 +1,12 @@
+.contact__list {
+  list-style: none;
+  @include rem-fallback(margin-bottom, 5);
+  text-align: center;
+  padding: 0;
+  background-color: $color-dark-grey;
+}
+
+.contact__list--item {
+  font-size: 22px;
+  color: $color-white-white;
+}

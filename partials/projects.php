@@ -1,4 +1,4 @@
-<section class="section section--projects">
+<section class="section section--projects section__grey">
 <div class="section__content section__content--projects">
   <h2 class="section__heading">Projects</h2>
         <?php
@@ -12,9 +12,9 @@
               $image_classes = 'article-teaser__featured article-teaser__featured-projects';
 
               if (has_post_thumbnail()) {
-                the_post_thumbnail('medium', array('class' => $image_classes));
+                the_post_thumbnail('large', array('class' => $image_classes));
               } else {
-                echo wp_get_attachment_image(206, 'medium', false, array('class' => $image_classes));
+                echo wp_get_attachment_image(206, 'large', false, array('class' => $image_classes));
               }
               ?>
               </a>

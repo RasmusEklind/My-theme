@@ -1,5 +1,10 @@
 			<footer class="footer" role="contentinfo">
-				<div class="footer--container">
+				<div class="footer__container">
+					<ul class="contact__list">
+						<li class="contact__list--item">Github</li>
+						<li class="contact__list--item">Twitter</li>
+						<li class="contact__list--item">email</li>
+					</ul>
 				</div>
 			</footer>
 

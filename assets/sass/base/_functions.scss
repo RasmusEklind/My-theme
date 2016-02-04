@@ -21,3 +21,8 @@
   #{$property}: $sizeValue + px;
   #{$property}: ($sizeValue / 16) + rem;
 }
+
+@mixin font-size($size) {
+  font-size: $size;
+  font-size: calculateRem($size);
+}
