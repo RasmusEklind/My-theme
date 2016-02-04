@@ -16,6 +16,9 @@
 		ga('create', 'UA-XXXXXXXX-XX', 'yourdomain.com');
 		ga('send', 'pageview');
 		</script>
+		<script type="text/javascript" src="<?php echo get_template_directory_uri() . '/assets/js/theme.min.js'; ?>">
+
+		</script>
 
 	</body>
 </html>
