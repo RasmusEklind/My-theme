@@ -1,4 +1,7 @@
-<section class="section section--projects section__grey">
+<section class="section section--projects">
+  <div class="divider-container divider--projects">
+  <?php get_template_part('partials/divider-svg'); ?>
+</div>
 <div class="section__content section__content--projects">
   <h2 class="section__heading">Projects</h2>
         <?php

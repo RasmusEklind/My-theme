@@ -17,3 +17,27 @@
       opacity: 0.7;
     }
 }
+
+.divider-container {
+  text-align: center;
+}
+
+.divider-svg {
+  @include rem-fallback(height, 80);
+  @include rem-fallback(width, 30);
+  margin: 0 auto;
+}
+
+.divider--projects {
+  fill: $color-light-blue;
+  opacity: 0.7;
+  @include rem-fallback(margin-top, -40);
+}
+.divider--thewall {
+  fill: $color-light-pink;
+  opacity: 0.7;
+}
+.divider--about {
+  fill: $color-light-black;
+  opacity: 0.7;
+}

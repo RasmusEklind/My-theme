@@ -1,6 +1,4 @@
 .section__content {
-  @include rem-fallback(padding-left, 5);
-  @include rem-fallback(padding-right, 5);
   @extend %clearfix;
   @extend %container;
   @include rem-fallback(margin-top, 20);
@@ -11,7 +9,11 @@
   text-align: center;
   @include rem-fallback(margin-bottom, 50);
 }
-
-.section__grey {
-  background-color: $color-grey-white;
+.section__heading--teaser {
+  @include rem-fallback(margin-left, 10);
+  @include rem-fallback(margin-right, 10);
+  font-weight: 400;
+  font-style: italic;
+  color: $color-light-black;
+  @include font-size($h5-font-size);
 }

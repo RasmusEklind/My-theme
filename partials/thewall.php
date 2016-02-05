@@ -1,8 +1,17 @@
 <section class="section section--thewall">
+  <div class="divider-container divider--thewall">
+  <?php get_template_part('partials/divider-svg'); ?>
+</div>
 <div class="section__content section__content--thewall">
   <section class="section section--thewall">
   <div class="section__content section__content--thewall">
     <h2 class="section__heading">The wall</h2>
+    <div class="section__heading--teaser">
+      <p>
+        - Here I will post stuff that I come across that I find intressting,
+        stuff that potentatilly could come of good use in future projects or just simply inspire me, and maybe you aswell.
+      </p>
+    </div>
           <?php
           $posts = get_posts(array('category' => 2, 'posts_per_page' => 5));
           foreach ($posts as $post) :
