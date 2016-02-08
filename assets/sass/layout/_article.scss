@@ -4,7 +4,6 @@
 }
 
 .article-teaser--projects {
-  text-align: center;
   @include rem-fallback(margin-bottom, 45);
 }
 
@@ -13,10 +12,12 @@
   color: inherit;
 
 }
-.article-teaser__title--projects {
-  @include rem-fallback(margin-top, 10);
+.article-teaser__title {
+  display: inline-block;
+  @include rem-fallback(margin-top, 0);
   @include rem-fallback(margin-bottom, 10);
 }
-.article-teaser__title--thewall {
+
+.article-teaser__titlewrapper {
   @include rem-fallback(margin, 10);
 }

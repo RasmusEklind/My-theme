@@ -2,3 +2,41 @@
 .article-teaser__body {
   color: $color-light-black;
 }
+
+.tags__list--teaser {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.tags__item--teaser {
+  list-style: none;
+  display: inline-block;
+  @include rem-fallback(margin-right, 5);
+  @include rem-fallback(margin-bottom, 5);
+
+  a {
+    color: $color-white-white;
+    text-decoration: none;
+    font-weight: 200;
+    border: 2px solid $color-dark-pink;
+    background-color: $color-dark-pink;
+    @include rem-fallback(border-radius, 30);
+    @include rem-fallback(padding-left, 5);
+    @include rem-fallback(padding-right, 5);
+    @include rem-fallback(padding-top, 2);
+    @include rem-fallback(padding-bottom, 2);
+
+    &:focus {
+      outline: none;
+      border: 2px solid $color-dark-blue;
+    }
+    &:hover {
+      background-color: lighten($color-dark-pink, 5);
+    }
+  }
+
+  &:nth-last-child(1) {
+    margin-right: 0;
+  }
+}
