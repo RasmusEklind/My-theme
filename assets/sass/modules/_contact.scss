@@ -4,22 +4,33 @@
   @include rem-fallback(margin-top, 20);
   text-align: center;
   padding: 0;
-
 }
 
 .contact__list--item {
-  opacity: 0.8;
-  font-size: 32px;
-  color: $color-dark-grey;
   display: inline-block;
-  @include rem-fallback(margin-right, 5);
+  font-size: 32px;
+  @include rem-fallback(margin-right, 30);
 
-  &:last-child {
-      @include rem-fallback(margin-right, 0);
+  &:nth-last-child(1) {
+    margin-right: 0;
   }
+}
+
+.contact__list--link {
+  opacity: 0.8;
+  color: $color-white-white;
+  background-color: $color-dark-blue;
+  border: 2px solid $color-dark-blue;
+  @include rem-fallback(border-radius, 30);
+  display: inline-block;
 
   &:hover {
     opacity: 1;
-    border-bottom: 1px solid $color-light-blue;
+  }
+
+  &:focus {
+    outline: none;
+    border: 2px solid $color-dark-grey;
+    opacity: 1;
   }
 }

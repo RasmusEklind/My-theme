@@ -1,15 +1,15 @@
 			<footer class="footer" role="contentinfo">
 				<div class="footer__container">
 					<ul class="contact__list">
-						<a class="contact__list--link nonetextref" href="https://github.com/RasmusEklind">
-							<li class="contact__list--item svg-icon-github-circled"></li>
-						</a>
-						<a class="contact__list--link nonetextref" href="https://twitter.com/EklindR">
-							<li class="contact__list--item svg-icon-twitter"></li>
-						</a>
-						<a class="contact__list--link nonetextref" href="mailto:eklind.r@gmail.com">
-							<li class="contact__list--item svg-icon-mail"></li>
-						</a>
+						<li class="contact__list--item ">
+							<a class="contact__list--link nonetextref svg-icon-github-circled" href="https://github.com/RasmusEklind"></a>
+						</li>
+						<li class="contact__list--item ">
+							<a class="contact__list--link nonetextref svg-icon-twitter" href="https://twitter.com/EklindR"></a>
+						</li>
+						<li class="contact__list--item ">
+							<a class="contact__list--link nonetextref svg-icon-mail" href="mailto:eklind.r@gmail.com"></a>
+						</li>
 					</ul>
 				</div>
 			</footer>
