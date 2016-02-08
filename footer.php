@@ -1,9 +1,15 @@
 			<footer class="footer" role="contentinfo">
 				<div class="footer__container">
 					<ul class="contact__list">
-						<li class="contact__list--item">Github</li>
-						<li class="contact__list--item">Twitter</li>
-						<li class="contact__list--item">email</li>
+						<a class="contact__list--link nonetextref" href="https://github.com/RasmusEklind">
+							<li class="contact__list--item svg-icon-github-circled"></li>
+						</a>
+						<a class="contact__list--link nonetextref" href="https://twitter.com/EklindR">
+							<li class="contact__list--item svg-icon-twitter"></li>
+						</a>
+						<a class="contact__list--link nonetextref" href="mailto:eklind.r@gmail.com">
+							<li class="contact__list--item svg-icon-mail"></li>
+						</a>
 					</ul>
 				</div>
 			</footer>
@@ -15,9 +21,9 @@
 		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 		ga('create', 'UA-XXXXXXXX-XX', 'yourdomain.com');
 		ga('send', 'pageview');
+
 		</script>
 		<script type="text/javascript" src="<?php echo get_template_directory_uri() . '/assets/js/theme.min.js'; ?>">
-
 		</script>
 
 	</body>

@@ -12,6 +12,7 @@
 .section__heading--teaser {
   @include rem-fallback(margin-left, 10);
   @include rem-fallback(margin-right, 10);
+  @include rem-fallback(padding, 5);
   font-weight: 400;
   font-style: italic;
   color: $color-light-black;

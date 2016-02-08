@@ -10,11 +10,13 @@
 
 .article-teaser__link {
   text-decoration: none;
-  border-bottom: 2px solid $color-light-black;
   color: inherit;
 
 }
 .article-teaser__title--projects {
   @include rem-fallback(margin-top, 10);
   @include rem-fallback(margin-bottom, 10);
+}
+.article-teaser__title--thewall {
+  @include rem-fallback(margin, 10);
 }
