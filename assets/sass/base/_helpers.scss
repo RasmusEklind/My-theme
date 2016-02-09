@@ -16,5 +16,5 @@
 }
 
 .paragraf {
-  @include rem-fallback(margin, 15);
+  @include rem-fallback(margin, 20);
 }

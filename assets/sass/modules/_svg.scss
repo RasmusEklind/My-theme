@@ -43,15 +43,15 @@
 }
 
 .top-left-svg-icon {
-  @include rem-fallback(height, 100);
-  @include rem-fallback(width, 100);
+  @include rem-fallback(height, 50);
+  @include rem-fallback(width, 50);
   position: absolute;
   left: 0;
   top: 0;
 }
 .bottom-right-svg-icon {
-  @include rem-fallback(height, 100);
-  @include rem-fallback(width, 100);
+  @include rem-fallback(height, 50);
+  @include rem-fallback(width, 50);
   position: absolute;
   right: 0;
   bottom: 0;
