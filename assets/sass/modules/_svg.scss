@@ -41,3 +41,22 @@
   fill: $color-light-green;
   opacity: 0.7;
 }
+
+.top-left-svg-icon {
+  @include rem-fallback(height, 100);
+  @include rem-fallback(width, 100);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.bottom-right-svg-icon {
+  @include rem-fallback(height, 100);
+  @include rem-fallback(width, 100);
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.paragraf-svg {
+  fill: $color-dark-blue;
+}

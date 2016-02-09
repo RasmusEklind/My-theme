@@ -14,3 +14,7 @@
 .nonetextref {
   text-decoration: none;
 }
+
+.paragraf {
+  @include rem-fallback(margin, 15);
+}

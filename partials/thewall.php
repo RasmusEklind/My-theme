@@ -7,10 +7,12 @@
   <div class="section__content section__content--thewall">
     <h2 class="section__heading">The wall</h2>
     <div class="section__heading--teaser">
-      <p>
+      <?php get_template_part('partials/top-left-svg'); ?>
+      <p class="paragraf">
         - Here I will post stuff that I come across that I find intressting,
         stuff that potentatilly could come of good use in future projects or just simply inspire me, and maybe you aswell.
       </p>
+      <?php get_template_part('partials/bottom-right-svg'); ?>
     </div>
           <?php
           $posts = get_posts(array('category' => 2, 'posts_per_page' => 5));
