@@ -17,16 +17,15 @@
 }
 
 .contact__list--link {
-  opacity: 0.9;
   color: $color-white-white;
-  background-color: $color-medium-blue;
+  background-color: $color-dark-blue;
   @include rem-fallback(margin, 2);
   @include rem-fallback(padding, 2);
   @include rem-fallback(border-radius, 30);
   display: inline-block;
 
   &:hover {
-    opacity: 1;
+    opacity: 0.9;
   }
 
   &:focus {
