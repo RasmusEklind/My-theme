@@ -14,10 +14,11 @@
 }
 .article-teaser__title {
   display: inline-block;
+  @include rem-fallback(margin-left, 10);
   @include rem-fallback(margin-top, 0);
   @include rem-fallback(margin-bottom, 10);
 }
 
 .article-teaser__titlewrapper {
-  @include rem-fallback(margin, 10);
+  @include rem-fallback(margin-bottom, 10);
 }

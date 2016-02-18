@@ -21,10 +21,9 @@
               }
               ?>
               </a>
-              <div class="article-teaser__titlewrapper article-teaser__titlewrapper--project">
-              <h3 class="article-teaser__title article-teaser__title--projects"><a class="article-teaser__link" href="<?php echo the_permalink(); ?>"><?php the_title(); ?></a></h3>
-              <?php the_tags('<ul class="tags__list--teaser"><li class="tags__item--teaser">', '</li> <li class="tags__item--teaser">', '</li></ul>' ); ?>
-              <div>
+              <h3 class="article-teaser__title article-teaser__title--projects">
+                <a class="article-teaser__link" href="<?php echo the_permalink(); ?>"><?php the_title(); ?></a>
+              </h3>
             </header>
 
             <section class="article-teaser__body">
