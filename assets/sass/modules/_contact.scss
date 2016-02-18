@@ -8,7 +8,7 @@
 
 .contact__list--item {
   display: inline-block;
-  font-size: 32px;
+  font-size: 22px;
   @include rem-fallback(margin-right, 30);
 
   &:nth-last-child(1) {
@@ -17,10 +17,11 @@
 }
 
 .contact__list--link {
-  opacity: 0.8;
+  opacity: 0.9;
   color: $color-white-white;
-  background-color: $color-dark-blue;
-  border: 2px solid $color-dark-blue;
+  background-color: $color-medium-blue;
+  @include rem-fallback(margin, 2);
+  @include rem-fallback(padding, 2);
   @include rem-fallback(border-radius, 30);
   display: inline-block;
 
@@ -29,8 +30,8 @@
   }
 
   &:focus {
+    margin: 0;
     outline: none;
-    border: 2px solid $color-dark-grey;
-    opacity: 1;
+    border: 2px solid $color-light-green;
   }
 }

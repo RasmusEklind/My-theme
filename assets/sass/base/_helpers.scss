@@ -18,3 +18,12 @@
 .paragraf {
   @include rem-fallback(margin, 20);
 }
+
+@keyframes fade-in-move-down
+{ from {top:48%; opacity: 0.5;}
+to {top:50%; opacity: 1}
+}
+
+.fade-in {
+  animation: fade-in-move-down 0.3s forwards;
+}

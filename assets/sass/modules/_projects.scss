@@ -4,7 +4,10 @@
 }
 
 .tags__list--teaser {
-  margin: 0;
+  @include rem-fallback(margin-top, 0);
+  @include rem-fallback(margin-right, 0);
+  @include rem-fallback(margin-bottom, 0);
+  @include rem-fallback(margin-left, 20);
   padding: 0;
   display: inline-block;
 }
@@ -16,23 +19,29 @@
   @include rem-fallback(margin-bottom, 5);
 
   a {
+    opacity: 0.9;
     color: $color-white-white;
     text-decoration: none;
-    font-weight: 200;
-    border: 2px solid $color-dark-pink;
-    background-color: $color-dark-pink;
+    font-weight: 400;
+    background-color: $color-dark-blue;
+    @include rem-fallback(margin, 2);
     @include rem-fallback(border-radius, 30);
-    @include rem-fallback(padding-left, 5);
-    @include rem-fallback(padding-right, 5);
-    @include rem-fallback(padding-top, 2);
-    @include rem-fallback(padding-bottom, 2);
+    @include rem-fallback(padding-left, 7);
+    @include rem-fallback(padding-right, 7);
+    @include rem-fallback(padding-top, 4);
+    @include rem-fallback(padding-bottom, 4);
 
     &:focus {
       outline: none;
-      border: 2px solid $color-dark-blue;
+      margin: 0;
+      @include rem-fallback(padding-left, 7);
+      @include rem-fallback(padding-right, 7);
+      @include rem-fallback(padding-top, 4);
+      @include rem-fallback(padding-bottom, 4);
+      border: 2px solid $color-light-green;
     }
     &:hover {
-      background-color: lighten($color-dark-pink, 5);
+      opacity: 1;
     }
   }
 
