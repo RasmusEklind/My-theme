@@ -5,6 +5,7 @@
 
 .article-teaser--projects {
   @include rem-fallback(margin-bottom, 45);
+  text-align: center;
 }
 
 .article-teaser__link {
@@ -15,6 +16,7 @@
 .article-teaser__title {
   display: inline-block;
   @include rem-fallback(margin-left, 10);
+  @include rem-fallback(margin-right, 10);
   @include rem-fallback(margin-top, 0);
   @include rem-fallback(margin-bottom, 10);
 }

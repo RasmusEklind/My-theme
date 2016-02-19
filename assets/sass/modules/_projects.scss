@@ -2,3 +2,12 @@
 .article-teaser__body {
   color: $color-light-black;
 }
+.excerpt--highlight {
+  @include rem-fallback(border-radius, 30);
+  @include rem-fallback(padding-left, 5);
+  @include rem-fallback(padding-right, 5);
+  @include rem-fallback(padding-top, 2);
+  @include rem-fallback(padding-bottom, 2);
+  color: $color-white-white;
+  background-color: $color-light-pink;
+}
