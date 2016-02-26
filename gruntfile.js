@@ -7,6 +7,7 @@ module.exports = function (grunt) {
             dist: {
                 src: [
                     'bower_components/jquery-2.2.0.min/index.js',
+                    'bower_components/scrollreveal/dist/scrollreveal.min.js',
                     'assets/js/theme.js'
                 ],
                 dest: 'assets/js/theme.min.js'
