@@ -1,6 +1,6 @@
 .contact__list {
   list-style: none;
-  @include rem-fallback(margin-bottom, 20);
+  @include rem-fallback(margin-bottom, 60);
   @include rem-fallback(margin-top, 20);
   text-align: center;
   padding: 0;

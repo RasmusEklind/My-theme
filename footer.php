@@ -10,6 +10,9 @@
 						<li class="contact__list--item ">
 							<a class="contact__list--link nonetextref svg-icon-mail" href="mailto:eklind.r@gmail.com"></a>
 						</li>
+						<li class="contact__list--item ">
+							<a class="contact__list--link nonetextref svg-icon-align-right"href="https://twitter.com/EklindR"></a>
+						</li>
 					</ul>
 				</div>
 			</footer>

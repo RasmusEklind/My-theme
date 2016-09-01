@@ -3,7 +3,7 @@
   <?php get_template_part('partials/divider-svg'); ?>
 </div>
 <div class="section__content section__content--about">
-  <?php $post = get_post(9); ?>
+  <?php $post = get_post(7); ?>
     <h2 class="section__heading"><?php echo $post->post_title; ?></h2>
     <div class="section__heading--teaser">
       <div class="featured__image--about">
